@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(360, 720),
       builder: (context, child) => GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Pet Care App',
         theme: ThemeData(
           primarySwatch: Colors.indigo,
