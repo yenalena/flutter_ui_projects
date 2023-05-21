@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:pet_care_app/home_screen.dart';
 
 void main() {
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Pet Care App',
         theme: ThemeData(
+          textTheme: GoogleFonts.poppinsTextTheme(),
           primarySwatch: Colors.indigo,
         ),
         home: const HomeScreen(),
