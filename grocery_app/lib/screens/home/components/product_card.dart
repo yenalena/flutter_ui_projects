@@ -20,7 +20,7 @@ class ProductCard extends StatelessWidget {
     return GestureDetector(
       onTap: press,
       child: Container(
-        padding: EdgeInsets.symmetric(horizontal: defaultPadding),
+        padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
         decoration: BoxDecoration(
           color: Color(0xFFF7F7F7),
           borderRadius: const BorderRadius.all(
